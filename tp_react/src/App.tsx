@@ -9,10 +9,10 @@ import Todo from './todo.tsx'
 const App = () => {
   return (
       <div>
-        {/* <HelloWorld />
+        <HelloWorld />
         <Counter />
         <List />
-        <NameForm /> */}
+        <NameForm />
         <Todo />
       </div>
   );
