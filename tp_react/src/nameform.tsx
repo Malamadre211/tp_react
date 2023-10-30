@@ -8,6 +8,9 @@ function NameForm() {
     const [name, setName] = useState('');
     const [selectedColor, setSelectedColor] = useState('black');
   
+    console.log('tata');
+    
+
     const handleNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
       setName(event.target.value);
     };
